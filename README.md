@@ -54,13 +54,3 @@ I chose this topic because education is a very important issue for refugees, and
 * Python (Pandas, Matplotlib / Plotly)
 * Jupyter Notebook / Google Colab
 * GitHub for version control
-
-## My Next Steps
-
-* Download datasets from World Bank and UNHCR
-* Clean and prepare the data
-* Start exploratory data analysis
-* Build visualizations
-* Refine research question if needed
-
----
