@@ -1,100 +1,49 @@
 # Final Project Proposal
+# Displacement and Access to Education - Afghanistan, Bangladesh, Myanmar (2010–2024)
 
-## Displacement and Access to Education: A Data-Driven Comparison of Afghanistan, Bangladesh, and Myanmar (2010–2024)
+## 📌 The Problem
 
-##  Project Idea
+When people flee their homes because of war or persecution, their education gets disrupted. This project looks at whether countries with more refugees have lower school enrollment and less internet access.
 
-For my final project, I aim to explore the relationship between displacement and access to education in different national contexts. I will focus on Afghanistan, Bangladesh, and Myanmar because these countries have experienced significant refugee crises, forced displacement, and educational disruptions over the past decade. The primary goal of this project is to examine whether higher levels of displacement are associated with barriers to educational access and digital learning opportunities. To investigate this relationship, I will compare refugee and displaced population trends with education-related indicators such as school enrollment and internet access. Through this analysis, I aim to better understand how displacement may contribute to educational inequality and what this means for communities affected by conflict, migration, and instability.
+**Research Question:** *How is displacement connected to education and internet access in Afghanistan, Bangladesh, and Myanmar?*
 
-## Research Question
+### 🔍 What I Found
 
-How is displacement associated with educational access and digital learning opportunities in Afghanistan, Bangladesh, and Myanmar?
+| Country | What kind of displacement? | Internet Access (2023) | Secondary School (2023) | How many fled? |
+|---------|---------------------------|------------------------|------------------------|----------------|
+| Afghanistan | High - many people fled | 15.9% | 59.6% | 3.75 million |
+| Bangladesh | Low - stable country | 44.5% | 66.0% | 0 |
+| Myanmar | Crisis in 2017 | No data | No data | 486,000 |
 
-Supporting Questions
-Do countries experiencing higher levels of displacement show lower educational access?
-How does internet access change during periods of major displacement?
-What differences can be observed across Afghanistan, Bangladesh, and Myanmar?
+**Main discovery:** Countries with high displacement (Afghanistan, Myanmar) have more education problems than stable countries like Bangladesh.
 
-## Data Sources
+### 📊 Where the Data Came From
 
-For this project, I will use two main sources of data:
+| Source | What data? | Years |
+|--------|-----------|-------|
+| World Bank | Internet users, school enrollment | 2010-2024 |
+| UNHCR | Refugee numbers by country | 2010-2024 |
 
-* World Bank Open Data (education indicators)
+### 🛠 What Tools I Used
 
-Education and digital access indicators:
-Secondary school enrollment
-Tertiary school enrollment
-Internet users (% of population)
+- **Python** - the programming language
+- **pandas** - for cleaning and merging data
+- **matplotlib & seaborn** - for making graphs
+- **Google Colab** - where I wrote my code
+- **GitHub** - where I saved my work
 
-* UNHCR Refugee Data Portal
+### 📈 The Graphs I Made
 
- Displacement-related indicators:
+| File Name | What it shows |
+|-----------|---------------|
+| internet_trends.png | Internet access went up in all countries, but Bangladesh grew fastest |
+| secondary_enrollment.png | School enrollment stayed low in Afghanistan, disappeared in Myanmar after 2017 |
+| afghanistan_refugees_education.png | As more Afghans fled, education did NOT improve |
+| myanmar_crisis_2017.png | The 2017 Rohingya crisis caused education data to disappear completely |
 
-Refugee population by country of origin
-Refugee population hosted by country
-Displacement statistics (if available)
+### 🚀 How to Run My Project
 
-Countries of Focus
-Afghanistan
-Bangladesh
-Myanmar
-
-Time Period: 2010–2024
-
-This timeframe captures important periods of displacement, political instability, and educational disruption
-while remaining manageable for analysis and comparison.
-
-## 🧹 Planned Methodology
-
-This project will follow a simple and reproducible data science workflow.
-
-1. Data Collection
-Download education and internet access data from the World Bank
-Download refugee and displacement-related data from UNHCR
-2. Data Cleaning
-Handle missing values and clean inconsistencies
-Filter data for Afghanistan, Bangladesh, and Myanmar only
-Keep observations between 2010 and 2024
-Standardize country and year formats
-3. Data Integration
-Merge datasets using:
-Country
-Year
-4. Data Analysis
-
-I will analyze:
-
-Trends in refugee and displacement populations over time
-Changes in school enrollment and internet access
-Patterns and associations between displacement and educational access
-Similarities and differences among the three countries
-5. Data Visualization
-
-To communicate findings clearly, I plan to create 1–2 strong visualizations, including:
-
-A trend visualization showing changes in displacement and education indicators over time
-A comparative chart highlighting differences between Afghanistan, Bangladesh, and Myanmar
-
-The project will prioritize clear storytelling and accessible visuals rather than presenting too many charts or technical details.
-
-
-
-
-## 📈 Expected Outcome
-I expect the analysis to reveal whether periods of higher displacement are associated with educational challenges, particularly
-lower school participation and unequal access to digital learning opportunities. The project may also reveal important differences
-between countries depending on whether they primarily experience displacement internally or host refugee populations. Ultimately, the goal is to highlight how displacement may contribute to educational inequality and identify areas where additional support may be needed. The findings may help inform NGOs, policymakers,
-and education-focused organizations about where educational support and digital learning initiatives could be most effective.
-
-## 🎯 Why This Project
-
-I chose this topic because education remains one of the most significant challenges faced by displaced communities.
-Refugees and conflict-affected populations often experience interrupted schooling, limited educational resources, and unequal access to learning opportunities. By using data to explore these challenges, I hope to better understand the relationship between displacement and educational inequality while highlighting
-areas where evidence-based interventions may be valuable. This topic is especially important because access to education plays a critical role in long-term stability, opportunity, and social development for displaced populations.
-
-## 🛠 Tools I Will Use
-Python (Pandas, Matplotlib, Plotly)
-Google Colab / Jupyter Notebook
-GitHub for version control and reproducibility
-
-The final project will be shared through an accessible web-based notebook and a public GitHub repository containing documentation, code, and visualizations.
+**Option 1: Google Colab (Easiest)**
+1. Click this link: [Open in Colab](https://colab.research.google.com/drive/https://colab.research.google.com/drive/1UaMYIzxnn1fPNlK8F_fSdHZUziOTnoEl?usp=sharing)
+2. Go to Runtime → Run all
+3. The graphs will appear automatically
