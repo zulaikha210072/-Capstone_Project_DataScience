@@ -44,6 +44,6 @@ When people flee their homes because of war or persecution, their education gets
 ### 🚀 How to Run My Project
 
 **Option 1: Google Colab (Easiest)**
-1. Click this link: [Open in Colab](https://colab.research.google.com/drive/https://colab.research.google.com/drive/1UaMYIzxnn1fPNlK8F_fSdHZUziOTnoEl?usp=sharing)
+1. Click this link: [Open in Colab](https://colab.research.google.com/drive/https://[colab.research.google.com/drive/1UaMYIzxnn1fPNlK8F_fSdHZUziOTnoEl?usp=sharing](https://colab.research.google.com/drive/1UaMYIzxnn1fPNlK8F_fSdHZUziOTnoEl))
 2. Go to Runtime → Run all
 3. The graphs will appear automatically
